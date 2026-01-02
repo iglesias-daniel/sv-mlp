@@ -1,0 +1,10 @@
+# 12 MHz Clock
+set_io CLK 35
+
+# UART (connected to FTDI chip)
+set_io RX 6
+set_io TX 9
+
+# LEDs
+set_io LEDR_N 11
+set_io LEDG_N 37
